@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: local # 기본환경
+  devtools:
+    livereload:
+      enabled: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?characterEncoding=utf8&autoReconnect=true&useSSL=false&serverTimezone=Asia/Seoul&allowMultiQueries=true
+    username: root
+    password: 1234
